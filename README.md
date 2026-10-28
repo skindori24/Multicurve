@@ -7,7 +7,7 @@ curve from market quotes (deposits, FRAs, swaps).
 **Version 0.1 is a simplified placeholder.** The program converts deposit rates into discount
 factors with `P = 1 / (1 + r * T)` and prints them. The real two-curve algorithm will replace it step by step with the development of the project.
 
-**Documentation:** https://skindori24.github.io/multicurve/
+**Documentation:** https://skindori24.github.io/Multicurve/
 
 ## Build and run
 
