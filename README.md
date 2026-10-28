@@ -5,14 +5,13 @@ Trading". Topic: **multicurve bootstrapping**, i.e. building an OIS discount cur
 curve from market quotes (deposits, FRAs, swaps).
 
 **Version 0.1 is a simplified placeholder.** The program converts deposit rates into discount
-factors with `P = 1 / (1 + r * T)` and prints them. The real two-curve algorithm will replace it
-step by step.
+factors with `P = 1 / (1 + r * T)` and prints them. The real two-curve algorithm will replace it step by step with the development of the project.
 
 **Documentation:** https://skindori24.github.io/multicurve/
 
 ## Build and run
 
-You need CMake 3.20 or newer, a C++20 compiler and Git. On the first configure, CMake downloads
+One needs CMake 3.20 or newer, a C++20 compiler and Git. On the first one should configure, CMake downloads
 GoogleTest and Google Benchmark.
 
 Linux, macOS or Git Bash:
@@ -46,3 +45,5 @@ bench/               benchmark (Google Benchmark)
 Doxyfile             Doxygen settings
 AGENTS.md            settings for the AI coding agent (CLAUDE.md refers to it)
 ```
+
+
