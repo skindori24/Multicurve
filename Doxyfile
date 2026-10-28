@@ -1,0 +1,10 @@
+# Doxygen settings (everything not listed keeps its default). Run: doxygen Doxyfile
+PROJECT_NAME           = "Multicurve Bootstrapping"
+PROJECT_BRIEF          = "C++ project: OIS discount curve and 3M forward curve"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = README.md src
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+EXTRACT_ALL            = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES

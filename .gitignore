@@ -1,0 +1,10 @@
+# Build output and generated documentation
+build/
+docs/
+
+# IDE folders (Visual Studio, VS Code, CLion)
+.vs/
+out/
+.vscode/
+.idea/
+cmake-build-*/
